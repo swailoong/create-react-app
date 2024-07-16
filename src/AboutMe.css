@@ -1,0 +1,40 @@
+#AboutMe{
+    min-height: 100vh;
+  }
+
+.skills{
+    background-color: black;
+    color: white;
+    border:solid white 2px;
+    width:100px;
+    text-align: center;
+    margin:5px;
+    padding:5px;
+    height:25px;
+  }
+  #about-section{
+    display:flex;
+  }
+
+  #about-title{
+    margin-block: 30px;
+    text-align: center;
+  }
+
+  #skillbox{
+    display: flex;
+    flex-flow: column wrap;
+    height:50px;
+  }
+
+  #pic{
+    margin:0;
+    width:25%;
+    height: 100%;
+  }
+
+  #about-desc{
+    margin-top: 70px;
+    margin-left: -115px;
+    margin-right:10%;
+  }

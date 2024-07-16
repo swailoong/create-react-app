@@ -1,11 +1,11 @@
-import './App.css';
+import './Header.css';
 
 export default function Header (){
     return (
         <header className='header'>
-            <p>About Me</p>
-            <p>Projects</p>
-            <p>Contact</p>
+            <a href="#AboutMe">About Me</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>
         </header>
     )
 }

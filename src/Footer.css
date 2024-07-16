@@ -1,0 +1,23 @@
+footer{
+    background-color: black;
+    text-align: center;
+    color:white;
+}
+
+img{
+    margin: 5px;
+}
+
+#arrowup{
+    padding:0;
+    padding-top: 10px;
+}
+
+#backToTop{
+    padding:0;
+    padding-bottom: 10px;
+}
+
+#copyright{
+    padding-block: 10px;
+}
