@@ -9,9 +9,9 @@ export default function Projects(){
             <p id="projects-desc">Checkout some of my recent projects!</p>
             <div id="splendidFood">
                 <a href="https://product-and-cart.vercel.app/" target='_blank'>
-                    <img src={splendid}></img>
-                    <h3>Splendid Food</h3>
-                    <p>
+                    <img id="splendid-img" class="project-img" src={splendid}></img>
+                    <h3 class="project-title">Splendid Food</h3>
+                    <p class="project-desc">
                         This is a grocery shopping page. 
                         It will recommend popular items on homepage and all of the products on product page.
                         Every item added to cart will be correctly reflected on the cart with the quantity and total amount shown.
@@ -20,9 +20,9 @@ export default function Projects(){
             </div>
             <div id="cloneBook">
                 <a href="https://clonebook-iota.vercel.app/" target='_blank'>
-                    <img src={clonebook}></img>
+                    <img id="clonebook-img" class="project-img" src={clonebook}></img>
                     <h3>CloneBook</h3>
-                    <p>
+                    <p class="project-desc">
                         In this project, I am trying to make a clone of a social networking page.
                         User will need to register themselves and login to be able to view the content.
                         User will also be able to change their profile picture, create new post, and view posts created by other users.

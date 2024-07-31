@@ -2,16 +2,38 @@
     color:white;
     min-height: 100vh;
     background-color: #282c34;
+    padding:30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:70px 80px auto auto auto auto;
   }
 
   #projects-title{
-    padding-top: 30px;
     text-align: center;
-    margin-bottom:0;
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
   
   #projects-desc{
     text-align: center;
-    padding-bottom: 30px;
-    padding-inline: 30px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .project-img{
+    width:80%;
+    margin: auto;
+  }
+
+  #splendidFood{
+    padding-right:20px
+  }
+
+  #cloneBook{
+    padding-left:20px
+  }
+
+  .project-desc{
+    text-align: justify;
+    text-decoration: none;
   }
