@@ -1,13 +1,13 @@
 import './AboutMe.css'
-import pic from './pic.jpg'
-import reactLogo from './reactLogo.png'
-import d3Logo from './d3Logo.png'
-import postgresqlLogo from './PostgreSQL.png'
-import jsLogo from './javascriptLogo.png'
-import htmlLogo from './htmlLogo.png'
-import phpLogo from './phpLogo.png'
-import cssLogo from './cssLogo.png'
-import vueLogo from './vueLogo.png'
+import pic from './img/pic.jpg'
+import reactLogo from './img/reactLogo.png'
+import d3Logo from './img/d3Logo.png'
+import postgresqlLogo from './img/PostgreSQL.png'
+import jsLogo from './img/javascriptLogo.png'
+import htmlLogo from './img/htmlLogo.png'
+import phpLogo from './img/phpLogo.png'
+import cssLogo from './img/cssLogo.png'
+import vueLogo from './img/vueLogo.png'
 
 export default function AboutMe(){
     return (
