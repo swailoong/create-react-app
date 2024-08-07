@@ -1,4 +1,4 @@
-import './Projects.css'
+import './styles/Projects.css'
 import clonebook from './img/clonebook screenshot.png'
 import splendid from './img/splendid food screenshot.png'
 

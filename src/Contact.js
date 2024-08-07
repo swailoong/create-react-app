@@ -21,7 +21,7 @@
 // }
 import {useState} from 'react'
 import $ from "jquery";
-import "./Contact.css";
+import "./styles/Contact.css";
  
 export default function Contact() {
     //const [name, setName] = useState("");

@@ -1,4 +1,4 @@
-import './AboutMe.css'
+import './styles/AboutMe.css'
 import pic from './img/pic.jpg'
 import reactLogo from './img/reactLogo.png'
 import d3Logo from './img/d3Logo.png'

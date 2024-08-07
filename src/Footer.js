@@ -2,7 +2,7 @@ import linkedin from './img/linkedin.png'
 import email from './img/email.png'
 import github from './img/github.png'
 import arrowup from './img/arrowup.png'
-import './Footer.css'
+import './styles/Footer.css'
 
 export default function Footer(){
     return (
