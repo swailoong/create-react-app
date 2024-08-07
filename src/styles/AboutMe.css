@@ -16,6 +16,7 @@
     display:flex;
   }
 
+
   #about-title{
     margin-block: 30px;
     text-align: center;
@@ -57,3 +58,18 @@
   #postgre{
     width:110px;
   }
+
+
+  /* Media query for screen widths less than or equal to 768px */
+@media (max-width: 768px) {
+    #about-desc {
+        margin-top: 150px; /* Adjust this value as needed */
+    }
+}
+
+/* Media query for screen widths less than or equal to 480px */
+@media (max-width: 480px) {
+    #about-desc {
+        margin-top: 200px; /* Adjust this value as needed */
+    }
+}
