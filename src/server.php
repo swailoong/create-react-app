@@ -34,13 +34,13 @@
     $mail->isSMTP();
     $mail->Host = 'smtp-mail.outlook.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'siewwailoong1997@hotmail.com';
-    $mail->Password = 'Trystan385011';
+    $mail->Username = 'projecttest97@outlook.com';
+    $mail->Password = 'Project@123';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
-    $mail->setFrom('siewwailoong1997@hotmail.com');
-    $mail->addAddress('siewwailoong1997@hotmail.com');
+    $mail->setFrom('projecttest97@outlook.com');
+    $mail->addAddress('trystansiew@gmail.com');
     $mail->addReplyTo($email);
     $mail->Subject = $subject;
     $mail->isHTML( isHtml: true);
